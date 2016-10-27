@@ -13,16 +13,17 @@ follow is proposed below.
 ## Workflow
 
 1.  Fork this repository to make your personal work repository
-2.  Make local clone of your work repository using *git clone*
-3.  *cd pixhawk2.1/*
-4.  *git checkout transition-to-kicad*
-5.  *git checkout -b name-of-your-branch*
+1.  Make local clone of your work repository using *git clone*
+1.  *cd pixhawk2.1/*
+1.  *git checkout transition-to-kicad*
+1.  *git checkout -b name-of-your-branch*
     It is good to use meaningful branch names like: *fix-description-text-aligned* or *feature-esd-protection-added*
-6.  Perform your changes
-7.  Add them with *git add* and commit the with *git commit -m "some meaningful changes description"*
-8. *git push origin name-of-your-branch*
-9.  Open your github repository in browser
-10. Create new pull request from *name-of-your-branch* branch in your repository to *transition-to-kicad*
+1.  *git submodule update --init --recursive*
+1.  Perform your changes
+1.  Add them with *git add* and commit the with *git commit -m "some meaningful changes description"*
+1. *git push origin name-of-your-branch*
+1.  Open your github repository in browser
+1. Create new pull request from *name-of-your-branch* branch in your repository to *transition-to-kicad*
     branch of this repository
     
 Feel free to submit issues here.
