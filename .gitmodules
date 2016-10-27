@@ -1,3 +1,6 @@
 [submodule "kicad/altium2kicad"]
 	path = kicad/altium2kicad
 	url = https://github.com/thesourcerer8/altium2kicad.git
+[submodule "kicad_oce_vis"]
+	path = kicad_oce_vis
+	url = https://github.com/cbernardo/kicad_oce_vis.git
