@@ -1,0 +1,3 @@
+[submodule "kicad/altium2kicad"]
+	path = kicad/altium2kicad
+	url = https://github.com/thesourcerer8/altium2kicad.git
