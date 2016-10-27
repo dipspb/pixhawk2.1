@@ -1,0 +1,22 @@
+Dmitriys-MacBook-Pro:IMU dipspb$ ../altium2kicad/unpack.pl 
+Loading IMU_REV_1A.SchDoc
+Done.
+
+Dmitriys-MacBook-Pro:IMU dipspb$ ../altium2kicad/convertschema.pl 
+Handling IMU_REV_1A-SchDoc/Root Entry/FileHeader.dat
+ERROR: LOGO.jpg not found!
+ERROR: OSHW.jpg not found!
+Use of uninitialized value in concatenation (.) or string at ../altium2kicad/convertschema.pl line 386.
+Use of uninitialized value in concatenation (.) or string at ../altium2kicad/convertschema.pl line 386.
+Use of uninitialized value in concatenation (.) or string at ../altium2kicad/convertschema.pl line 386.
+Use of uninitialized value in concatenation (.) or string at ../altium2kicad/convertschema.pl line 386.
+Use of uninitialized value in concatenation (.) or string at ../altium2kicad/convertschema.pl line 386.
+
+Dmitriys-MacBook-Pro:IMU dipspb$ ../altium2kicad/convertpcb.pl 
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading IMU_REV_1A.SchDoc
+Done.
+There were no unpacked PcbDoc files found.
+
+Dmitriys-MacBook-Pro:IMU dipspb$ 
+
